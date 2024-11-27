@@ -2,7 +2,7 @@ version: 2.1
 jobs:
   build-and-push:
     docker:
-      - image: circleci/docker:stable
+      - image: cimg/node:lts
     steps:
       - checkout
       - setup_remote_docker:
