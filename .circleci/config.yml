@@ -21,10 +21,10 @@ jobs:
       - run:
           name: Tag Images
           command: | 
-            docker tag udagram-api-user:latest $DOCKER_USERNAME/udagram-api-user:latest
-            docker tag udagram-api-feed:latest $DOCKER_USERNAME/udagram-api-feed:latest
-            docker tag udagram-frontend:latest $DOCKER_USERNAME/udagram-frontend:latest
-            docker tag reverseproxy:latest $DOCKER_USERNAME/reverseproxy:latest
+            docker tag udagram-api-user $DOCKER_USERNAME/udagram-api-user:latest
+            docker tag udagram-api-feed $DOCKER_USERNAME/udagram-api-feed:latest
+            docker tag udagram-frontend $DOCKER_USERNAME/udagram-frontend:latest
+            docker tag reverseproxy $DOCKER_USERNAME/reverseproxy:latest
 
       - run:
           name: Push Images
