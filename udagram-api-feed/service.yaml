@@ -1,13 +1,13 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: backend-api-feed-service
+  name: backend-feed
   labels:
-    service: backend-api-feed-service
+    service: backend-feed
 spec:
   selector:
-    service: backend-api-feed-service
+    service: backend-feed
   ports:
-    - name: "8080"
-      port: 8080
-      targetPort: 8080
+  - protocol: TCP
+    port: 8080
+    targetPort: 8080

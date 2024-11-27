@@ -5,8 +5,8 @@ metadata:
 data:
   POSTGRES_HOST: udacity-course.c1qgune4uvxv.us-east-1.rds.amazonaws.com
   POSTGRES_DB: udacity
-  AWS_BUCKET: arn:aws:s3:::course-mononlith-to-microservice
+  AWS_BUCKET: course-mononlith-to-microservice
   AWS_PROFILE: default
   AWS_REGION: us-east-1
   JWT_SECRET: udagram@2024
-  URL: http://localhost:8100/
+  URL: http://aaf3766b2876c4c7f8e1f3ebaf05a482-247150603.us-east-1.elb.amazonaws.com
