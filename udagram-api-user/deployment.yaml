@@ -17,6 +17,11 @@ spec:
       containers:
       - name: udagram-api-user
         image: justlee142/udagram-api-user:v3
+        resources:
+          requests:
+            cpu: "100m"
+          limits:
+            cpu: "500m"
         env:
         - name: POSTGRES_USERNAME
           valueFrom:
